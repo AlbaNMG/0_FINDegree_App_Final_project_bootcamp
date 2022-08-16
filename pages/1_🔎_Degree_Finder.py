@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 
 #This is the second page in the app, so please, review the Code of the Home Page .py file first
 #Refresh Streamlit documentation is essential to understand the code: https://docs.streamlit.io/
