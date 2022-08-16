@@ -32,7 +32,7 @@ st.subheader("")
 
 #Excel with traits of personality (Based on the eneagram's approach, there are 9 personality types)
 #This Excel contains words that describe each type of personality
-pers_words=pd.read_excel(r'C:\Users\amohedasgonzalez\Downloads\0.Ironhack\Proyectos\Final project\personalities_words.xlsx')
+pers_words=pd.read_excel('personalities_words.xlsx')
 
 
 
@@ -232,17 +232,17 @@ if st.button("Press me to see what is your personality type and which are the be
         import pickle
 
         #reading the model that I created in Jupyter Notebook previously 
-        model=pd.read_pickle(r'C:\Users\amohedasgonzalez\Downloads\0.Ironhack\Proyectos\Final project\model.p')
+        model=pd.read_pickle('model.p')
         
         #Reading the Excel file that I need with the words of personalities
-        pers_words=pd.read_excel(r"C:\Users\amohedasgonzalez\Downloads\0.Ironhack\Proyectos\Final project\personalities_words.xlsx")
+        pers_words=pd.read_excel("personalities_words.xlsx")
         
         #"gensim.utils.simple_preprocess" is a gensim's function that tokenize words
         #Applying the previous function to the "Description_ENG" column of my Excel file
         review_traits = pers_words.Description_ENG.apply(gensim.utils.simple_preprocess)
 
         #reading the Excel file with the skills of each proffesion
-        skills_professions=pd.read_excel(r"C:\Users\amohedasgonzalez\Downloads\0.Ironhack\Proyectos\Final project\skills_professions.xlsx")
+        skills_professions=pd.read_excel("skills_professions.xlsx")
 
         #Applying the  function to the "Skills_ENG" column of my Excel file
         review_skills = skills_professions.Skills_ENG.apply(gensim.utils.simple_preprocess)
