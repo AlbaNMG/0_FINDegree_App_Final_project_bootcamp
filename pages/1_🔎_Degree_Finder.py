@@ -29,7 +29,7 @@ st.sidebar.write("▶ Step ３: Look for one specific degree and see the access 
 #from openpyxl import Workbook
 
 #Reading the Excel file where all the degrees, category, access score, etc. from the last 3 school years (2019-20// 2020-21 // 2021-22) of all the public universities of Madrid are stored
-degrees_database=pd.read_excel(r'C:\Users\amohedasgonzalez\Downloads\0.Ironhack\Proyectos\Final project\220802_Integrated database.xlsx')
+degrees_database=pd.read_excel('220802_Integrated database.xlsx')
 
 #converting the following 2 columns of the Excel file to string because otherwise there are a lot of decimals
 degrees_database['University_credits']= degrees_database['University_credits'].map(str)
