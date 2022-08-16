@@ -642,7 +642,7 @@ if st.button("Press me to see what is your personality type and which are the be
 
         st.write("\n")
         st.header("Step 3: ")
-        st.write("Now, it's time to visit the [Degree Finder](http://localhost:8501/Degree_Finder)!")
+        st.write("Now, it's time to visit the [Degree Finder](https://albanmg-findegree-app-final-project-boo--home--findegree-7nkx3x.streamlitapp.com/Degree_Finder)!")
 #--------------------------------------------------------------------
 
 
