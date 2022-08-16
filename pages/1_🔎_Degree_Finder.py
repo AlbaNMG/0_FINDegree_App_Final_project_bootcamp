@@ -26,7 +26,7 @@ st.sidebar.write("▶ Step ２: Select one category and see all available degree
 st.sidebar.write("▶ Step ３: Look for one specific degree and see the access grade for the last 3 years")
 
 #Degree finder
-#from openpyxl import Workbook
+from openpyxl import Workbook
 
 #Reading the Excel file where all the degrees, category, access score, etc. from the last 3 school years (2019-20// 2020-21 // 2021-22) of all the public universities of Madrid are stored
 degrees_database=pd.read_excel('220802_Integrated database.xlsx')
