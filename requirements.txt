@@ -4,7 +4,6 @@ argon2-cffi-bindings==21.2.0
 asttokens==2.0.7
 attrs==22.1.0
 backcall==0.2.0
-beautifulsoup4 @ file:///C:/ci/beautifulsoup4_1650293025093/work
 bleach==5.0.1
 blinker==1.5
 Bottleneck @ file:///C:/Windows/Temp/abs_3198ca53-903d-42fd-87b4-03e6d03a8381yfwsuve8/croots/recipe/bottleneck_1657175565403/work
