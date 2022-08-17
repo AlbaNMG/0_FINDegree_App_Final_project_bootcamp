@@ -14,7 +14,7 @@ st.set_page_config(
 #Configuring the Sidebar
 st.sidebar.markdown("# Welcome to FINDegree App!")
 #st.sidebar.markdown("ㅤㅤㅤㅤㅤㅤㅤ👋            ")
-st.sidebar.text("🎯 FINDegree is the App that helps"+'\n'+ "ㅤㅤstudents who are about to start"+'\n'+"ㅤㅤㅤuniversity to identify which"+'\n'+"ㅤㅤuniversity degrees would be the"+'\n'+ "ㅤㅤㅤbest ones for them based on"+'\n'+"ㅤㅤㅤtheir personality type. 🎯")
+st.sidebar.write("🎯 FINDegree is the App that helps"+'\n'+ "ㅤㅤstudents who are about to start"+'\n'+"ㅤㅤㅤuniversity to identify which"+'\n'+"ㅤㅤuniversity degrees would be the"+'\n'+ "ㅤㅤㅤbest ones for them based on"+'\n'+"ㅤㅤㅤtheir personality type. 🎯")
 st.sidebar.markdown("# Steps:")
 st.sidebar.write("▶ Step １: Identify your Enneagram"+'\n'+"personality type (*)")
 st.sidebar.write("▶ Step ２: See your top professions"+'\n'+"and check the best degrees for you")
