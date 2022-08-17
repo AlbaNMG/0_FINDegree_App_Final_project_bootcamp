@@ -25,7 +25,7 @@ st.sidebar.write("(*) Click [here](https://lifegoalsmag.com/career-path-enneagra
 st.title("Find your perfect degree!")
 st.text("⭐ Please, note that for now, this option is only available for Health Science"+'\n'+"degrees of public universities of Madrid. However, the Degree Finder 🔎 is"+'\n'+"available for all the categories (not only for Health Science).")
 st.write("\n")
-st.write("If you would like to access to the Degree Finder directly, please click [here!](http://localhost:8501/Degree_Finder)")
+st.write("If you would like to access to the Degree Finder directly, please click [here!](https://albanmg-findegree-app-final-project-boo--home--findegree-7nkx3x.streamlitapp.com/Degree_Finder)")
 st.header("Step 1:")
 st.subheader("Let's identify your Enneagram personality type! :sunglasses:")
 st.subheader("")
