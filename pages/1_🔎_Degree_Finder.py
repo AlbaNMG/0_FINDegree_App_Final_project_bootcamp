@@ -246,7 +246,7 @@ if chosen_university != 'No selection': #"!="" means: if chosen_university "is d
                     alt.X('Year', title='Year'),
                     alt.Y('Score', title='Access score'),
                 ).properties(
-                    title='Access score evoluation for the last 3 years:'
+                    title='Access score evolution for the last 3 years:'
                 )
 
                 st.altair_chart(line_chart, use_container_width=True)
