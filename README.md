@@ -1,26 +1,15 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-Data Analytics Bootcamp (Ironhack) - Final project: FINDegree App
-
 # FINDegree App | Final project, Data Analytics Bootcamp
 
 ## Description
 
-xx
+FINDegree is the tool that helps students who are about to start university to identify which university degrees would be the best ones for them based on their personality type and facilitates the search for the best universities through the Degree Finder 🔎 that the app has integrated.
 
-## Getting Started
+## Functionalities
 
-Open the `main.ipynb` file in the `your-code` directory. There are a bunch of questions to be solved. If you get stuck in one exercise you can skip to the next one. Read each instruction carefully and provide your answer beneath it.
+- Identify the personality type and the work style (based on the user's input)
+- Find "top 5 professions" and the related degrees that the user could study
+- The user can look for the best university that offers the recommended degree in the Degree Finder 🔎, check the access scores and explore other degrees/universities, etc.
 
-## Deliverables
-
-- `main.ipynb` with your responses to each of the exercises.
-
-## Submission
-
-Upon completion, add your deliverables to git. Then commit git and push your branch to the remote.
-
-## Resources
-
-- [List Comprehensions | Python Documentation](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
-- [Using List Comprehensions With Pandas](https://chrisalbon.com/python/data_wrangling/pandas_list_comprehension/)
+[Link | FINDegree App]([https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions](https://albanmg-findegree-app-final-project-boo--home--findegree-7nkx3x.streamlitapp.com/)
