@@ -12,4 +12,4 @@ FINDegree is the tool that helps students who are about to start university to i
 - Find "top 5 professions" and the related degrees that the user could study
 - The user can look for the best university that offers the recommended degree in the Degree Finder 🔎, check the access scores and explore other degrees/universities, etc.
 
-[Link | FINDegree App]([https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions](https://albanmg-findegree-app-final-project-boo--home--findegree-7nkx3x.streamlitapp.com/)
+- [Link | FINDegree App](https://albanmg-findegree-app-final-project-boo--home--findegree-7nkx3x.streamlitapp.com/)
