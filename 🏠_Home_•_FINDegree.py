@@ -29,7 +29,7 @@ st.header("Step 1:")
 st.subheader("Let's identify your Enneagram personality type! :sunglasses:")
 st.subheader("")
 
-#Excel with traits of personality (Based on the eneagram's approach, there are 9 personality types)
+#Excel with traits of personality (Based on the enneagram's approach, there are 9 personality types)
 #This Excel contains words that describe each type of personality
 pers_words=pd.read_excel('personalities_words.xlsx')
 
@@ -39,7 +39,7 @@ pers_words=pd.read_excel('personalities_words.xlsx')
 
 
 
-#Creating variables to store the words that describe each type of personality separately
+#Creating variables to store the words that describe each personality type separately
 words_1=pers_words['Description_ENG'][pers_words['Type of personality']==1]
 words_2=pers_words['Description_ENG'][pers_words['Type of personality']==2]
 words_3=pers_words['Description_ENG'][pers_words['Type of personality']==3]
